@@ -37,6 +37,6 @@ def process_pdf(pdf_url, sections_to_extract):
 
 if __name__ == "__main__":
     pdf_url = "https://proceedings.neurips.cc/paper_files/paper/2021/file/854d9fca60b4bd07f9bb215d59ef5561-Paper.pdf"
-    sections_to_extract = ["Abstract", "Results", "Conclusion"]
+    sections_to_extract = ["Abstract", "Conclusion"]
 
     inputs = process_pdf(pdf_url, sections_to_extract)
